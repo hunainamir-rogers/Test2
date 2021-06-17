@@ -1,0 +1,84 @@
+#! /usr/bin/python
+
+import csv
+import requests
+import datetime
+
+mydate = datetime.datetime.now()
+print(mydate.strftime("%B"), mydate.year)
+
+API_CSIX_ID = 'ApiKey MTk4hf78eJTCAhkR3c4dVuLjUZ7WJ3pXYhd5i2M6ezMjCvtDDgdp4Nt9RHgakgdc'
+headers = {'Content-Type': 'application/vnd.api+json', 'Authorization': API_CSIX_ID}
+response = requests.get(headers=headers,url='https://us-west-2-api.cloudconformity.com/v1/reports/x43wd89Jv/csv')
+with open('Alert.csv', 'wb') as f:
+    f.write(response.content)
+
+
+report = open(r'AllSecurityGroupAlarms.csv', 'r', encoding='utf-8')     #<--- Please change the name of the file in order for the process to begin.
+csv_input = csv.DictReader(report)
+accountRiskLevelAgg = {}
+accountRuleAgg = {}
+accountEnvAgg = {}
+allRules = {}
+fname = 'FinalReport.csv'
+
+# for input in csv_input:
+# ob[input['Account Name']] = [0 , 0 , 0]
+for row in csv_input:
+    ruleTitle = row['Rule Title']
+    if ruleTitle not in allRules:
+        allRules[ruleTitle] = 0
+report.seek(0)
+csv_input = csv.DictReader(report)
+for row in csv_input:
+    ruleTitle = row['Rule Title']
+    accountName = row['Account Name']
+    riskLevel = row['Risk Level']
+    envName = row['Environment']
+
+
+
+    if accountName not in accountRiskLevelAgg:
+        accountRiskLevelAgg[accountName] = [0, 0, 0]
+    accountRiskLevelAgg[accountName][0] += 1 if riskLevel == 'Low' else 0
+    accountRiskLevelAgg[accountName][1] += 1 if riskLevel == 'Medium' else 0
+    accountRiskLevelAgg[accountName][2] += 1 if riskLevel == 'High' else 0
+
+    if accountName not in accountRuleAgg:
+        accountRuleAgg[accountName] = allRules.copy()
+    accountRuleAgg[accountName][ruleTitle] += 1
+
+    if envName not in accountEnvAgg:
+        accountEnvAgg[envName] = [0, 0, 0]
+    accountEnvAgg[envName][0] += 1 if riskLevel == 'Low' else 0
+    accountEnvAgg[envName][1] += 1 if riskLevel == 'Medium' else 0
+    accountEnvAgg[envName][2] += 1 if riskLevel == 'High' else 0
+
+# for output in csv_output:
+#   oc[output['Account Name']] += 1 if output['Risk Level'] in ['Low'] else 0
+
+#  ob[input['Account Name']] += 1 if input['Risk Level'] in ['Medium'] else 0
+
+
+with open(fname, "w") as report:
+    csv_file = csv.writer(report)
+    csv_file.writerow(["Date", "Account Name", "Low", 'Medium', 'High'])
+    for accName, riskLevels in accountRiskLevelAgg.items():
+        csv_file.writerow([mydate.strftime("%B") + str(mydate.year), accName, riskLevels[0], riskLevels[1], riskLevels[2]])
+
+
+    csv_file.writerow([])
+    csv_file.writerow(["Date", "Account Name | Rule Title"] + list(allRules.keys()))
+    for accName, rules in accountRuleAgg.items():
+        csv_file.writerow([mydate.strftime("%B") + str(mydate.year), accName] + list(rules.values()))
+
+    csv_file.writerow([])
+    csv_file.writerow(["Date", "Account Name", "Low", 'Medium', 'High', 'Total'])
+    for enviornmentName, riskLevels in accountEnvAgg.items():
+        csv_file.writerow(
+            [mydate.strftime("%B") + str(mydate.year), enviornmentName, riskLevels[0], riskLevels[1], riskLevels[2], riskLevels[0] + riskLevels[1] + riskLevels[2]])
+
+
+
+
+

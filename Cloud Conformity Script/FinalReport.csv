@@ -1,0 +1,110 @@
+Date,Account Name,Low,Medium,High
+March2021,ENT-PROD,23,28,0
+March2021,INF-DEV,28,55,0
+March2021,RTSL Staging,17,17,0
+March2021,EDA-PROD,54,90,0
+March2021,CEX-SS,38,56,0
+March2021,INF-QA,16,17,0
+March2021,EDA-DEV,25,35,0
+March2021,RTSL Catalyst,17,19,0
+March2021,EDA-MLHUB-PROD,16,18,0
+March2021,DSC-WorkStation,18,3,17
+March2021,EDA-SS,16,23,0
+March2021,EDA-MLHUB-QA,16,18,0
+March2021,Security Account - 136765375697,36,40,0
+March2021,DSC-PROD,15,2,14
+March2021,ENT-DEV,22,23,0
+March2021,RTSL Master,27,33,0
+March2021,CEX-PROD,21,30,0
+March2021,RTSL IT,17,18,0
+March2021,ENT-STG,22,23,0
+March2021,EDA-MLHUB-DEV,16,18,0
+March2021,ICSU-Sandbox,92,81,0
+March2021,CBU-SS,15,17,0
+March2021,EDA Workstation,16,18,0
+March2021,RTSL Production,18,18,0
+March2021,CEX-DEV,133,196,0
+March2021,DM&T-QA,18,18,0
+March2021,Amdocs STG,47,65,0
+March2021,Amdocs SS,21,26,0
+March2021,CBU-DEV,15,17,0
+March2021,DM&T-PROD,18,18,0
+March2021,DM&T-POC,25,40,0
+March2021,Security-Dev,16,18,0
+March2021,CEX-STG,24,28,0
+March2021,RTSL NetworkExperience,23,24,0
+March2021,Amdocs QA,40,63,0
+March2021,EDA-Staging,15,16,0
+March2021,EDA-QA,18,20,0
+March2021,ENT-QA,15,16,0
+March2021,CEX-QA,25,30,0
+March2021,DM&T-Dev,24,24,0
+March2021,Jira & Confluence Account,50,56,0
+March2021,Amdocs Dev,118,169,0
+March2021,RTSL Dev,21,40,0
+March2021,"Cloud Conformity Report, Account Name: CEX-SS, Environment: Shared Services; Account Name: ENT-DEV, Environment: Development; Account Name: ENT-QA, Environment: Quality Assurance; Account Name: Amdocs STG, Environment: Staging; Account Name: RTSL Production, Environment: Prod; Account Name: EDA-MLHUB-QA, Environment: QA; Account Name: RTSL IT, Environment: null; Account Name: ENT-SANDBOX, Environment: Sandbox; Account Name: EDA-QA, Environment: Quality Assurance; Account Name: Security-Dev, Environment: Dev; Account Name: CEX-QA, Environment: Quality Assurance; Account Name: EDA-SS, Environment: Shared Services; Account Name: EDA-PROD, Environment: Production; Account Name: DM&T-POC, Environment: Proof-of-Concept; Account Name: ENT-PROD, Environment: Production; Account Name: DSC-PROD, Environment: Data Science; Account Name: ICSU-Sandbox, Environment: Sandbox; Account Name: ENT-STG, Environment: Staging; Account Name: INF-QA, Environment: Quality Assurance; Account Name: Amdocs Dev, Environment: Development; Account Name: CEX-STG, Environment: Staging; Account Name: EDA-MLHUB-PROD, Environment: PROD; Account Name: CBU-SS, Environment: Shared Services; Account Name: RTSL Staging, Environment: Staging; Account Name: EDA-MLHUB-DEV, Environment: DEV; Account Name: RTSL NetworkExperience, Environment: null; Account Name: Amdocs QA, Environment: Quality Assurance; Account Name: RTSL Master, Environment: null; Account Name: EDA Workstation, Environment: Staging; Account Name: DM&T-Dev, Environment: Development; Account Name: CEX-DEV, Environment: Development; Account Name: INF-DEV, Environment: Development; Account Name: CBU-DEV, Environment: Development; Account Name: Security Account - 136765375697, Environment: Prod Security Account; Account Name: CEX-PROD, Environment: Production; Account Name: RTSL Dev, Environment: Development; Account Name: DSC-WorkStation, Environment: Staging; Account Name: Amdocs SS, Environment: Shared Services; Account Name: EDA-Staging, Environment: Staging; Account Name: RTSL Catalyst, Environment: null; Account Name: DM&T-PROD, Environment: Production; Account Name: DM&T-QA, Environment: Quality Assurance; Account Name: Jira & Confluence Account, Environment: Prod; Account Name: EDA-DEV, Environment: Development, Date: Mon Mar 01 2021 05:00:45 GMT+0000 (Coordinated Universal Time), Checks: 2882, Failed: 2882, 100%, Succeeded: 0, 0%, Filters applied: Rules: EC2-001, EC2-002, EC2-003, EC2-004, EC2-005, EC2-006, EC2-007, EC2-008, EC2-012, EC2-013, EC2-016, EC2-032, EC2-033, EC2-034, EC2-038, EC2-039, EC2-040, EC2-041, EC2-042, EC2-043, EC2-044, EC2-045, EC2-059, EC2-061, EC2-063, EC2-064, EC2-065; Status: FAILURE; Suppressed Checks: Not-suppressed",0,0,0
+March2021,"Compliance Score and percent success metrics are dependent on (1) active / selected filters, (2) data access you have provided on your account(s) or provided to you by your Organisation admin, and (3) controls which Cloud Conformity is able to check for on your cloud infrastructure - this would exclude for example workload across accounts, and organisational processes. Standard and framework control to rule mapping represents the expert opinion of Cloud Conformity and not necessarily that of the standard or framework authority. Rule severities and categories apply to Cloud Conformity's rules and not the controls they are mapped to. Your account(s) compliance with any Framework or Standard should be assessed in conjunction with your own internal review.",0,0,0
+
+Date,Account Name | Rule Title,Unrestricted Security Group Egress,Unrestricted HTTPS Access,Unrestricted Security Group Ingress,Security Group Port Range,Descriptions for Security Group Rules,SecurityGroup RFC 1918,Unrestricted HTTP Access,Unrestricted ICMP Access,Unrestricted RPC Access,Unrestricted MsSQL Access,Unrestricted Oracle Access,Unrestricted SSH Access,Unrestricted Telnet Access,Unrestricted SMTP Access,Unrestricted MongoDB Access,Unrestricted MySQL Access,Unrestricted RDP Access,Unrestricted CIFS Access,Unrestricted PostgreSQL Access,Unrestricted Elasticsearch Access,Unrestricted NetBIOS Access,Unrestricted FTP Access,Unrestricted DNS Access,Security Group Large Counts,Security Group Name Prefixed With 'launch-wizard',Security Group Excessive Counts,Default Security Group Unrestricted,
+March2021,ENT-PROD,22,1,1,1,23,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,INF-DEV,27,2,2,3,28,3,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0
+March2021,RTSL Staging,17,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-PROD,52,0,0,36,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+March2021,CEX-SS,36,5,1,4,37,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+March2021,INF-QA,15,0,0,0,16,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-DEV,24,0,0,7,25,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,RTSL Catalyst,17,1,0,0,17,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-MLHUB-PROD,15,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,DSC-WorkStation,17,0,0,0,18,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-SS,15,1,1,1,16,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-MLHUB-QA,15,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,Security Account - 136765375697,29,0,0,1,30,8,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0
+March2021,DSC-PROD,14,0,0,0,15,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,ENT-DEV,21,0,0,0,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,RTSL Master,26,1,0,5,27,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,CEX-PROD,20,1,1,3,21,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,RTSL IT,17,0,0,1,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,ENT-STG,21,0,0,0,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-MLHUB-DEV,15,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,ICSU-Sandbox,65,1,4,5,67,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,24,0,0,0
+March2021,CBU-SS,14,0,0,0,15,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA Workstation,15,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,RTSL Production,18,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,CEX-DEV,121,0,0,61,123,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,9,1,0,0
+March2021,DM&T-QA,18,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,Amdocs STG,41,3,1,8,42,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0
+March2021,Amdocs SS,20,0,0,1,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,CBU-DEV,14,0,0,0,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,DM&T-PROD,18,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,DM&T-POC,21,1,1,1,21,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,3,0,1,0
+March2021,Security-Dev,15,0,0,0,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,CEX-STG,23,0,0,2,24,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,RTSL NetworkExperience,17,0,0,3,20,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,0,0,3,0,0,0
+March2021,Amdocs QA,39,3,1,8,40,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-Staging,14,0,0,0,15,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,EDA-QA,17,0,0,0,18,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,ENT-QA,14,0,0,0,15,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,CEX-QA,24,0,0,3,25,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+March2021,DM&T-Dev,22,0,0,0,22,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+March2021,Jira & Confluence Account,42,6,2,0,42,0,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,7,0,1,0
+March2021,Amdocs Dev,111,3,1,19,112,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,1,0,0
+March2021,RTSL Dev,19,1,2,1,19,0,1,0,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,0,1,0,1,0
+March2021,"Cloud Conformity Report, Account Name: CEX-SS, Environment: Shared Services; Account Name: ENT-DEV, Environment: Development; Account Name: ENT-QA, Environment: Quality Assurance; Account Name: Amdocs STG, Environment: Staging; Account Name: RTSL Production, Environment: Prod; Account Name: EDA-MLHUB-QA, Environment: QA; Account Name: RTSL IT, Environment: null; Account Name: ENT-SANDBOX, Environment: Sandbox; Account Name: EDA-QA, Environment: Quality Assurance; Account Name: Security-Dev, Environment: Dev; Account Name: CEX-QA, Environment: Quality Assurance; Account Name: EDA-SS, Environment: Shared Services; Account Name: EDA-PROD, Environment: Production; Account Name: DM&T-POC, Environment: Proof-of-Concept; Account Name: ENT-PROD, Environment: Production; Account Name: DSC-PROD, Environment: Data Science; Account Name: ICSU-Sandbox, Environment: Sandbox; Account Name: ENT-STG, Environment: Staging; Account Name: INF-QA, Environment: Quality Assurance; Account Name: Amdocs Dev, Environment: Development; Account Name: CEX-STG, Environment: Staging; Account Name: EDA-MLHUB-PROD, Environment: PROD; Account Name: CBU-SS, Environment: Shared Services; Account Name: RTSL Staging, Environment: Staging; Account Name: EDA-MLHUB-DEV, Environment: DEV; Account Name: RTSL NetworkExperience, Environment: null; Account Name: Amdocs QA, Environment: Quality Assurance; Account Name: RTSL Master, Environment: null; Account Name: EDA Workstation, Environment: Staging; Account Name: DM&T-Dev, Environment: Development; Account Name: CEX-DEV, Environment: Development; Account Name: INF-DEV, Environment: Development; Account Name: CBU-DEV, Environment: Development; Account Name: Security Account - 136765375697, Environment: Prod Security Account; Account Name: CEX-PROD, Environment: Production; Account Name: RTSL Dev, Environment: Development; Account Name: DSC-WorkStation, Environment: Staging; Account Name: Amdocs SS, Environment: Shared Services; Account Name: EDA-Staging, Environment: Staging; Account Name: RTSL Catalyst, Environment: null; Account Name: DM&T-PROD, Environment: Production; Account Name: DM&T-QA, Environment: Quality Assurance; Account Name: Jira & Confluence Account, Environment: Prod; Account Name: EDA-DEV, Environment: Development, Date: Mon Mar 01 2021 05:00:45 GMT+0000 (Coordinated Universal Time), Checks: 2882, Failed: 2882, 100%, Succeeded: 0, 0%, Filters applied: Rules: EC2-001, EC2-002, EC2-003, EC2-004, EC2-005, EC2-006, EC2-007, EC2-008, EC2-012, EC2-013, EC2-016, EC2-032, EC2-033, EC2-034, EC2-038, EC2-039, EC2-040, EC2-041, EC2-042, EC2-043, EC2-044, EC2-045, EC2-059, EC2-061, EC2-063, EC2-064, EC2-065; Status: FAILURE; Suppressed Checks: Not-suppressed",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+March2021,"Compliance Score and percent success metrics are dependent on (1) active / selected filters, (2) data access you have provided on your account(s) or provided to you by your Organisation admin, and (3) controls which Cloud Conformity is able to check for on your cloud infrastructure - this would exclude for example workload across accounts, and organisational processes. Standard and framework control to rule mapping represents the expert opinion of Cloud Conformity and not necessarily that of the standard or framework authority. Rule severities and categories apply to Cloud Conformity's rules and not the controls they are mapped to. Your account(s) compliance with any Framework or Standard should be assessed in conjunction with your own internal review.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+
+Date,Account Name,Low,Medium,High,Total
+March2021,Production,116,166,0,282
+March2021,Development,386,559,0,945
+March2021,Staging,159,170,17,346
+March2021,Shared Services,90,122,0,212
+March2021,Quality Assurance,132,164,0,296
+March2021,,84,94,0,178
+March2021,PROD,16,18,0,34
+March2021,QA,16,18,0,34
+March2021,Prod Security Account,36,40,0,76
+March2021,Data Science,15,2,14,31
+March2021,DEV,16,18,0,34
+March2021,Sandbox,92,81,0,173
+March2021,Prod,68,74,0,142
+March2021,Proof-of-Concept,25,40,0,65
+March2021,Dev,16,18,0,34
